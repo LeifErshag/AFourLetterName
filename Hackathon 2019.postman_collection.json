@@ -1,0 +1,271 @@
+{
+	"info": {
+		"_postman_id": "98a3cf1a-fcbf-4128-b981-3c92ccd1fc1a",
+		"name": "Hackathon 2019",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"UserName\": \"CLOUD\\\\hackathon16\", \"Password\": \"hackEMEA01\", \"CompanyDB\": \"I805789_SU52\"\n}"
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Login",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Items",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OIBQ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Items",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Business Partners",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/BusinessPartners",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"BusinessPartners"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BinLocations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Warehouses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BinLocationAttributesService_GetList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "QueryService_PostQuery",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				},
+				"description": "POST https://localhost:50000/b1s/v1/QueryService_PostQuery\r\n\r\n{\r\n    \"QueryOption\": \"$expand=Orders($select=DocEntry, DocNum),Orders/DocumentLines($select=ItemCode,LineNum)&$filter=Orders/DocEntry eq Orders/DocumentLines/DocEntry and Orders/DocEntry ge 3 and Orders/DocumentLines/LineNum eq 0\",\r\n    \"QueryPath\": \"$crossjoin(Orders,Orders/DocumentLines)\"\r\n}"
+			},
+			"response": []
+		},
+		{
+			"name": "Noname",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				},
+				"description": "POST https://localhost:50000/b1s/v1/QueryService_PostQuery\r\n\r\n{\r\n    \"QueryOption\": \"$expand=Orders($select=DocEntry, DocNum),Orders/DocumentLines($select=ItemCode,LineNum)&$filter=Orders/DocEntry eq Orders/DocumentLines/DocEntry and Orders/DocEntry ge 3 and Orders/DocumentLines/LineNum eq 0\",\r\n    \"QueryPath\": \"$crossjoin(Orders,Orders/DocumentLines)\"\r\n}"
+			},
+			"response": []
+		}
+	]
+}
