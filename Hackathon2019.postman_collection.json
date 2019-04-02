@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "47ec9a4f-dd55-427d-a84c-89fd21fe0e39",
+		"name": "Hackathon 2019",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"UserName\": \"CLOUD\\\\hackathon16\", \"Password\": \"hackEMEA01\", \"CompanyDB\": \"I805789_SU52\"\n}"
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Login",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Items",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Business Partners",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/BusinessPartners",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"BusinessPartners"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://SU-9308-52.emea.businessone.cloud.sap/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"SU-9308-52",
+						"emea",
+						"businessone",
+						"cloud",
+						"sap"
+					],
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
